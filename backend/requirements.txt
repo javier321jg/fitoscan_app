@@ -1,0 +1,24 @@
+# Backend Dependencies - FitoScan App
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# AI/ML
+ultralytics==8.1.0
+torch==2.1.2
+torchvision==0.16.2
+opencv-python-headless==4.9.0.80
+numpy==1.24.3
+
+# Google Gemini
+google-generativeai==0.3.2
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Optional (for production)
+gunicorn==21.2.0
